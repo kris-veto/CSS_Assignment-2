@@ -1,0 +1,93 @@
+html::before {
+    content: "";
+    background: url("../dilemma.jpg") repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+ul.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    }
+
+li.nav-item{
+    float: left;
+
+}
+
+li.nav-item a{
+    display: block;
+    color: rgb(79, 77, 240);
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#search-form {
+    display: flex; /* Utiliza flexbox para los elementos internos */
+    margin-top: 12px;
+    height: 22px;
+    margin-left: 700px;
+}
+
+#search-box {
+    background-color: #555555;
+    border: none;
+    color: #fff;
+    padding: 0;
+    
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    text-align: center;
+    max-width: 550px;
+}
+
+.vocal{
+   font-style: italic;
+}
+
+.singers{
+    font-size: small;
+}
+
+.k{
+    font-family: "Courgette", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(196, 40, 162);
+}
+
+.N{
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: larger;
+}
+.A{
+        font-family: "Indie Flower", cursive;
+        font-weight: 500;
+        font-style: normal;
+        color: blue;
+        
+      
+}
